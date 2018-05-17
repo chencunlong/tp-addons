@@ -1,8 +1,7 @@
 {
     "name": "chencunlong/tp-addons",
-    "description": "The ThinkPHP5.1.X Addons Pack(钩子插件)",
+    "description": "The ThinkPHP5.1.X Addons Pack(钩子扩展)",
     "license": "Apache-2.0",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "chencunlong",
