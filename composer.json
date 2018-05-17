@@ -1,0 +1,24 @@
+{
+    "name": "chencunlong/tp-addons",
+    "description": "The ThinkPHP5.1.X Addons Pack(钩子插件)",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "chencunlong",
+            "email": "chencunlong@126.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "5.1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
