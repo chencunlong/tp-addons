@@ -1,7 +1,7 @@
 # think-addons
 The ThinkPHP 5.1 Addons Package
 
-## 扩展安装
+## 扩展安装 
 > composer require chencunlong/tp-addons
 
 ## 简述
