@@ -1,6 +1,7 @@
 {
     "name": "chencunlong/tp-addons",
-    "description": "The ThinkPHP5.1.X Addons Pack(钩子扩展)",
+    "description": "The ThinkPHP5.1.x Addons Pack(钩子扩展)",
+    "homepage": "https://github.com/chencunlong/tp-addons",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -8,7 +9,11 @@
             "email": "chencunlong@126.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/chencunlong/tp-addons/issues"
+    },
     "require": {
+        "php": ">=5.6.0",
         "topthink/framework": "5.1.*"
     },
     "minimum-stability": "dev",
