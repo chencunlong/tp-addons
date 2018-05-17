@@ -1,4 +1,4 @@
-# think-addons
+# tp-addons
 The ThinkPHP 5.1 Addons Package
 
 ## 扩展安装 
