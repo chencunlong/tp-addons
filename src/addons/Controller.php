@@ -64,7 +64,7 @@ class Controller extends \think\Controller
         // 重置配置
         Config::set('template.view_path', $view_path);
 
-        parent::__construct($request);
+        parent::__construct($request=[]);
     }
 
     /**
