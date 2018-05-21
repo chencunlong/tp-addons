@@ -39,7 +39,7 @@ class Controller extends \think\Controller
      * @param Request $request Request对象
      * @access public
      */
-    public function __construct(Request $request = null)
+    public function __construct()
     {
         // 生成request对象
         $this->request = Container::get('request');
@@ -64,7 +64,7 @@ class Controller extends \think\Controller
         // 重置配置
         Config::set('template.view_path', $view_path);
 
-        parent::__construct($request=[]);
+        parent::__construct();
     }
 
     /**
